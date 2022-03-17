@@ -1,4 +1,5 @@
 # This is the ReadMe for Assign-03
+Built by Peter Saunders
 
 ## Running the Application
 This app includes a Dockerfile so kindly use it for consistency. If you have trouble with docker please [review the docker site](https://docs.docker.com/). Beyond that the wiki contains a set of build instructions.
