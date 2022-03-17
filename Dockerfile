@@ -14,9 +14,13 @@ RUN npm install
 # bundle app source 
 COPY . .
 
+# expose the port we want
 EXPOSE 3000 
 
+# build the app
+# install a server
 RUN npm run build
 RUN npm install -g serve
 
+# run the server
 CMD ["serve", "-s", "build"]
